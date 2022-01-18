@@ -9,9 +9,6 @@
 body {
     background-color: white;
     font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 
@@ -51,6 +48,9 @@ body {
 /* CSS for image-slider
  */
 .swiper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
