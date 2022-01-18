@@ -6,6 +6,15 @@
     height: 100%;
 }
 
+body {
+    background-color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .nav-div{
     width: 100%;
     background-color: lightblue;
@@ -37,4 +46,26 @@
     width: 12rem;
     font-size: 1.4rem;
     display: inline-block;
+}
+
+/* CSS for image-slider
+ */
+.swiper {
+    width: 100%;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 21.5rem;
+    height: 21.5rem;
+    background: black;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: black;
+    cursor: pointer;
 }
